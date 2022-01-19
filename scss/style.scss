@@ -133,6 +133,7 @@ header {
         width: 80px;
         height: 80px;
         background: #c03e3e url(../images/btn_all.png) no-repeat 50% 50%;
+        cursor: pointer;
         .allmenu {
           display: none;
           width: 100%;
@@ -143,6 +144,7 @@ header {
           border-top: 1px solid #b4b4b4;
           border-bottom: 1px solid #b4b4b4;
           background-color: #fff;
+          z-index: 10;
           .in {
             height: 100%;
             display: flex;
@@ -192,6 +194,9 @@ header {
               }
             }
           }
+        }
+        .showmenu {
+          display: block;
         }
       }
     }

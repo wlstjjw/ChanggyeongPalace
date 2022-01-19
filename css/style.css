@@ -170,6 +170,7 @@ header .mainmenu .inner .allmenu_btn {
   width: 80px;
   height: 80px;
   background: #c03e3e url(../images/btn_all.png) no-repeat 50% 50%;
+  cursor: pointer;
 }
 
 header .mainmenu .inner .allmenu_btn .allmenu {
@@ -182,6 +183,7 @@ header .mainmenu .inner .allmenu_btn .allmenu {
   border-top: 1px solid #b4b4b4;
   border-bottom: 1px solid #b4b4b4;
   background-color: #fff;
+  z-index: 10;
 }
 
 header .mainmenu .inner .allmenu_btn .allmenu .in {
@@ -242,6 +244,10 @@ header .mainmenu .inner .allmenu_btn .allmenu .in .allmenu_li ul li .more li a {
   color: #555;
   font-weight: normal;
   font-size: 12px;
+}
+
+header .mainmenu .inner .allmenu_btn .showmenu {
+  display: block;
 }
 
 main .visual {
