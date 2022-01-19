@@ -1,0 +1,65 @@
+//font
+$font-color: #555;
+$font-black-color: #000;
+$font-light-gray: #656565;
+$font-quick-yellow: #333;
+$font-size-28: 28px;
+$font-size-23: 23px;
+$font-size-19: 19px;
+$font-size-18: 18px;
+$font-size-17: 17px;
+$font-size-16: 16px;
+$font-size-15: 15px;
+$font-size-14: 14px;
+$font-size-13: 13px;
+$font-size-11: 11px;
+$font-weight-600: 600;
+$font-weight-500: 500;
+$font-weight-400: 400;
+
+//color
+$color-light-gray: #ededed;
+$color-submenu: #f0f0f0;
+$color-border: #d2d2d2;
+$color-white: #fff;
+$color-cal-bg: rgba(0, 0, 0, 0.8);
+$color-cal-line: rgba(255, 255, 255, 0.15);
+$color-cal-red: #c03e3e;
+$color-quick-red: #b15e58;
+$color-quick-yellow: #e9bc65;
+$color-quick-gray: #888;
+$color-quick-green: #21938a;
+$color-news-date: #48649f;
+$color-news-month: #5e5e5e;
+$color-partner-bg: rgba(126, 126, 126, 0.4);
+$color-footer1-bg: rgba(119, 120, 127, 0.8);
+$color-footer1-in: #77787f;
+$color-footer1-chat: #5b5b61;
+
+//height
+$height-quick: 200px;
+$gap-contents: 30px;
+
+//url
+$url-quick1: url(../images/main_ico1.png);
+$url-quick2: url(../images/main_ico2.png);
+$url-quick3: url(../images/main_ico3.png);
+$url-quick4: url(../images/main_ico4.png);
+
+//quickBtn
+@mixin quickBtn($bgcolor, $url) {
+  background: $bgcolor $url no-repeat 217px 117px;
+}
+
+//txt1
+@mixin txt1_bar($left, $right) {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: $left;
+  right: $right;
+  width: 28px;
+  height: 1px;
+  background-color: #fff;
+}

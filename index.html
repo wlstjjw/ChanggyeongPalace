@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script defer src="javascript/slide.js"></script>
+    <script defer src="javascript/calendar.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topmenu">
+            <div class="inner">
+                <ul>
+                    <li><a href="#"><img src="images/logo_gov.png" alt="정부"></a></li>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">문화재청</a></li>
+                    <li><a href="#">ENGLISH</a></li>
+                    <li><a href="#">CHINESE</a></li>
+                    <li><a href="#">JAPANESE</a></li>
+                    <li><a href="#"><img src="images/ico_tweeter.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="images/ico_insta.png" alt="인스타그램"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainmenu">
+            <div class="inner">
+                <h1 class="logo"><a href="#"><img src="images/logo.png" alt="로고"></a></h1>
+                <ul class="gnb">
+                    <li class="gnb_li">
+                        <a href="#">미리보는 창경궁</a>
+                        <div class="dep1 view">
+                            <div class="in">
+                                <div class="tit">
+                                    <img src="images/gnb_over_img1.png" alt="미리보는 창경궁">
+                                </div>
+                                <ul class="dep1_li">
+                                    <li><a href="#">소개</a></li>
+                                    <li><a href="#">역사</a></li>
+                                    <li><a href="#">창경궁 미리보기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">관람안내</a>
+                        <div class="dep1">
+                            <div class="in">
+                                <div class="tit">
+                                    <img src="images/gnb_over_img2.png" alt="관람안내">
+                                </div>
+                                <ul class="dep1_li">
+                                    <li>
+                                        <a href="#">관람정보</a>
+                                        <div class="dep2">
+                                            <a href="#">관람요금 및 시간</a>
+                                            <a href="#">한복무료관람 가이드라인</a>
+                                            <a href="#">해설안내</a>
+                                            <a href="#">관람규칙 및 CCTV 설치</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">편의시설</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">찾아오시는 길</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">예약/신청</a>
+                        <div class="dep1">
+                            <div class="in">
+                                <div class="tit">
+                                    <img src="images/gnb_over_img3.png" alt="예약/신청">
+                                </div>
+                                <ul class="dep1_li">
+                                    <li><a href="#">청소년단체관람</a></li>
+                                    <li><a href="#">문화행사예약</a></li>
+                                    <li><a href="#">촬영 및 장소 사용안내</a></li>
+                                    <li><a href="#">예약확인</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">자료실</a>
+                        <div class="dep1">
+                            <div class="in">
+                                <div class="tit">
+                                    <img src="images/gnb_over_img4.png" alt="자료실">
+                                </div>
+                                <ul class="dep1_li">
+                                    <li><a href="#">발간자료</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">열린광장</a>
+                        <div class="dep1">
+                            <div class="in">
+                                <div class="tit">
+                                    <img src="images/gnb_over_img5.png" alt="열란광장">
+                                </div>
+                                <ul class="dep1_li">
+                                    <li><a href="#">자주묻는 질문(FAQ)</a></li>
+                                    <li><a href="#">민원신청</a></li>
+                                    <li><a href="#">창경궁 소식</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">기관소개</a>
+                        <div class="dep1">
+                            <div class="in">
+                                <div class="tit">
+                                    <img src="images/gnb_over_img6.png" alt="기관소개">
+                                </div>
+                                <ul class="dep1_li">
+                                    <li><a href="#">인사말</a></li>
+                                    <li><a href="#">업무 및 직원소개</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="allmenu_btn">
+                    <div class="allmenu">
+                        <div class="in">
+                            <div class="allmenu_li">
+                                <a href="#" class="allmenu_tit">미리보는 창경궁</a>
+                                <ul>
+                                    <li><a href="#">소개</a></li>
+                                    <li><a href="#">역사</a></li>
+                                    <li><a href="#">창경궁 미리보기</a></li>
+                                </ul>
+                            </div>
+                            <div class="allmenu_li">
+                                <a href="#" class="allmenu_tit">관람안내</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">관람정보</a>
+                                        <ul class="more">
+                                            <li><a href="#">관람요금 및 시간</a></li>
+                                            <li><a href="#">한복무료관람 가이드라인</a></li>
+                                            <li><a href="#">해설안내</a></li>
+                                            <li><a href="#">관람규칙 및 CCTV 설치</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">편의시설</a></li>
+                                    <li><a href="#">찾아오시는 길</a></li>
+                                </ul>
+                            </div>
+                            <div class="allmenu_li">
+                                <a href="#" class="allmenu_tit">예약/신청</a>
+                                <ul>
+                                    <li><a href="#">청소년단체관람</a></li>
+                                    <li><a href="#">문화행사예약</a></li>
+                                    <li><a href="#">촬영 및 장소 사용안내</a></li>
+                                    <li><a href="#">예약확인</a></li>
+                                </ul>
+                            </div>
+                            <div class="allmenu_li">
+                                <a href="#" class="allmenu_tit">자료실</a>
+                                <ul>
+                                    <li><a href="#">발간자료</a></li>
+                                </ul>
+                            </div>
+                            <div class="allmenu_li">
+                                <a href="#" class="allmenu_tit">열린광장</a>
+                                <ul>
+                                    <li><a href="#">자주묻는 질문(FAQ)</a></li>
+                                    <li><a href="#">민원신청</a></li>
+                                    <li><a href="#">창경궁 소식</a></li>
+                                </ul>
+                            </div>
+                            <div class="allmenu_li">
+                                <a href="#" class="allmenu_tit">기관소개</a>
+                                <ul>
+                                    <li><a href="#">인사말</a></li>
+                                    <li><a href="#">업무 및 직원소개</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="visual">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide visual1">
+                        <div class="title"><img src="images/tit_visual1.png" alt="창경궁"></div>
+                        <p class="txt1">사적</p>
+                        <p class="txt2">성종 14년(1483)에 세조비 정희왕후, 에종비 인순왕후, 덕종비 소혜왕후<br>세분의 대비를 모시기 위해 옛 수강궁터에 창건한 궁</p>
+                    </div>
+                    <div class="swiper-slide visual2">
+                        <div class="title"><img src="images/tit_visual2.png" alt="창경궁명정전"></div>
+                        <p class="txt1">국보</p>
+                        <p class="txt2">명정전은 창경궁의 으뜸 전각인 정전(正殿)으로, 국왕의 즉위식,<br>신하들의 하례, 과거시험, 궁중연회 등의 공식적 행사를 치렀던 장소</p>
+                    </div>
+                    <div class="swiper-slide visual3">
+                        <div class="title"><img src="images/tit_visual3.png" alt="창경궁옥천교"></div>
+                        <p class="txt1">보물</p>
+                        <p class="txt2">각 부분의 양식과 조각이 특별하며, 특히 다른 궐의 어느 것보다도<br>아름다운 모습을 지니고 있는 돌다리</p>
+                    </div>
+                    <div class="swiper-slide visual4">
+                        <div class="title"><img src="images/tit_visual4.png" alt="창경궁대온실"></div>
+                        <p class="txt1">등록문화재</p>
+                        <p class="txt2">1909년에 건축된 주철골구조와 목조가 혼합된 구조체에 외피를 유리로 둘러싼 우리나라 최초의 양식 온실</p>
+                    </div>
+                </div>
+                <div class="vs-control">
+                    <div class="vs-pager">
+                    </div>
+                    <div class="vs-auto">
+                        <div class="vs-auto-start">start</div>
+                        <div class="vs-auto-stop">stop</div>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar">
+                <div class="in">
+                    <div class="cal_head">
+                        <div class="cal_tit">청소년단체관람예약</div>
+                        <div class="cal_mon">
+                            <a href="#" class="cal_prev" onClick="clickPrevBtn()"><img src="images/cal_prev.png" alt="이전달"></a>
+                            <span class="year"></span>
+                            <span class="month"></span>
+                            <a href="#" class="cal_next" onClick="clickNextBtn()"><img src="images/cal_next.png" alt="다음달"></a>
+                        </div>
+                    </div>
+                    <div class="dates"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="inner">
+                <div class="quickBtn">
+                    <a href="#">
+                        <p>관람요금및시간 <img src="images/ico_main_btn_white.png" alt="바로가기아이콘"></p>
+                        <span>휴궁일 : 매주 일요일<br>매표장소:함양문</span>
+                    </a>
+                    <a href="#">
+                        <p>관람규칙 <img src="images/ico_main_btn_black.png" alt="바로가기아이콘"></p>
+                        <span>관람하시면서 꼭 준수해<br>주셔야 할 사항입니다.</span>
+                    </a>
+                    <a href="#">
+                        <p>촬영및장소사용 <img src="images/ico_main_btn_white.png" alt="바로가기아이콘"></p>
+                        <span>촬영을 하고자 하시는 분에 대한<br>신청 안내</span>
+                    </a>
+                    <a href="#">
+                        <p>찾아오시는길 <img src="images/ico_main_btn_white.png" alt="바로가기아이콘"></p>
+                        <span>서울특별시 종로구 창경궁로 185</span>
+                    </a>
+                </div>
+                <div class="notice">
+                    <div class="news">
+                        <div class="news_tit">
+                            <a href="#"><img src="images/latest_tit.png" alt="창경궁소식"></a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <p class="date">18<br><span>2022.01</span></p>
+                                    <p class="txt">창경궁 대온실 접종증명 및 음성확인제 해제 알림(22.1.18 ~)</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p class="date">18<br><span>2022.01</span></p>
+                                    <p class="txt">창경궁 22.01.18(화) 정상 개방 알림</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p class="date">15<br><span>2022.01</span></p>
+                                    <p class="txt">코로나19 확진에 따른 창경궁 임시 폐쇄 알림(1.15 ~ 1.16)</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="banner">
+                        <div class="banner_tit">
+                            <a href="#">
+                                <img src="images/latest_tit2.png" alt="창경궁소식">
+                            </a>
+                        </div>
+                        <div class="banner-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="images/getImage (1).png" alt="알림판1">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="images/getImage (2).png" alt="알림판2">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="images/getImage.jpg" alt="알림판3">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="images/getImage.png" alt="알림판4">
+                                    </a>
+                                </div> 
+                            </div>
+                            
+                        </div>
+                        <div class="bn-control">
+                            <div class="bn-prev-btn"></div>
+                            <div class="bn-next-btn"></div>
+                            <div class="bn-stop-btn"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quickBtn2">
+                    <div>
+                        <a href="#">
+                            <img src="images/ico_bottom1.png" alt="미리보는창경궁">
+                            <p>창경궁의 주요 건물 등을<br>사진과 함께 보실 수 있습니다.</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="images/ico_bottom2.png" alt="예약">
+                            <p>청소년, 일반 단체 관람과<br>행사 예약 확인 및 취소</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="images/ico_bottom3.png" alt="창경궁해설">
+                            <p>해설을 원하는 단체(20인 이상 30인 이하)는<br>최소 이틀전 전화(02-762-4868)예약</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="images/ico_bottom4.png" alt="한복무료관람가이드">
+                            <p>전통한복/생활한복 모두 무료관람 대상 포함<br>궁궐의 품격에 어울리는 한복 착용 권장</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="partner">
+                <div class="inner">
+                    <p class="partner_tit">배너<br>모음</p>
+                    <div class="partner-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/bottom_banner1.png" alt="배너1">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/bottom_banner2.png" alt="배너2">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/bottom_banner3.png" alt="배너3">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/bottom_banner4.png" alt="배너4">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/bottom_banner5.png" alt="배너5">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/epeople_pubi.jpg" alt="배너6">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-control">
+                        <div class="pt-prev-btn"></div>
+                        <div class="pt-stop-btn"></div>
+                        <div class="pt-next-btn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer1">
+            <div class="inner">
+                <ul>
+                    <li><a href="#"><span>개인정보처리방침</span></a><img src="images/footer_line.png" alt="footerline"></li>
+                    <li><a href="#"><span>개인정보침해신고</span></a><img src="images/footer_line.png" alt="footerline"></li>
+                    <li><a href="#"><span>저작권정책</span></a><img src="images/footer_line.png" alt="footerline"></li>
+                    <li><a href="#"><span>안전신문고</span></a><img src="images/footer_line.png" alt="footerline"></li>
+                    <li><a href="#"><span>도로명주소안내</span></a></li>
+                </ul>
+                <a href="#" class="chatbtn">
+                    <img src="images/ico_footer.png" alt="말풍선">
+                    <span>온라인화상(수화) 채팅상담</span>
+                </a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="inner">
+                <div class="footer_logo">
+                    <img src="images/footer_logo.png" alt="하단로고">
+                </div>
+                <div class="footer_addr">
+                    <span>(우)03072 서울시 종로구 창경궁로 185</span>
+                    <a href="#"><img src="images/footer_contact.png" alt="찾아오시는길"></a>
+                    <a href="#"><span>전화 : 02-762-4868</span></a>
+                    <span>팩스 : 02-762-9514</span>
+                    <br><p>ⓒ2017 문화재청 창경궁관리소. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
