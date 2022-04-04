@@ -250,6 +250,10 @@ header .mainmenu .inner .allmenu_btn .showmenu {
   display: block;
 }
 
+main {
+  width: 100%;
+}
+
 main .visual {
   width: 100%;
   height: 546px;
@@ -257,6 +261,7 @@ main .visual {
 }
 
 main .visual .swiper-container {
+  width: 100%;
   height: 100%;
   position: relative;
 }
@@ -314,19 +319,19 @@ main .visual .swiper-container .swiper-wrapper .swiper-slide .txt2 {
 }
 
 main .visual .swiper-container .swiper-wrapper .visual1 {
-  background-image: url(../images/bg_visual1.jpg);
+  background: center/cover url(../images/bg_visual1.jpg) no-repeat;
 }
 
 main .visual .swiper-container .swiper-wrapper .visual2 {
-  background-image: url(../images/bg_visual2.jpg);
+  background: center/cover url(../images/bg_visual2.jpg) no-repeat;
 }
 
 main .visual .swiper-container .swiper-wrapper .visual3 {
-  background-image: url(../images/bg_visual3.jpg);
+  background: center/cover url(../images/bg_visual3.jpg) no-repeat;
 }
 
 main .visual .swiper-container .swiper-wrapper .visual4 {
-  background-image: url(../images/bg_visual4.jpg);
+  background: center/cover url(../images/bg_visual4.jpg) no-repeat;
 }
 
 main .visual .swiper-container .vs-control {
@@ -510,7 +515,7 @@ main .visual .calendar .dates .today:before {
 main .content {
   width: 100%;
   padding-top: 30px;
-  background: url(../images/bg.png) no-repeat;
+  background: center/cover url(../images/bg.png) no-repeat;
 }
 
 main .content .quickBtn {
